@@ -1,6 +1,14 @@
 # rails for windows
 
-handy tools to run after installing engine yard railsinstaller.org for windows ruby 2.1
+Complete basic rails installation for windows platform.
+
+## versions
+- ruby 2.1.5
+- rails 4.2.4
+- mysql2
+- thin
+- thin_service
+- bcrypt
 
 ## included in this package:
 
@@ -18,3 +26,7 @@ handy tools to run after installing engine yard railsinstaller.org for windows r
 ## testing
 
 - Run ruby test-mysql.rb
+
+## limitations
+
+- restricted to 32bits ruby 2.1 due to many gems have yet to support 64bits ruby nor ruby 2.2
